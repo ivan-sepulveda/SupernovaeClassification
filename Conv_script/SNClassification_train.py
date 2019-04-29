@@ -4,9 +4,9 @@ from __future__ import print_function
 
 import tensorflow as tf
 import os
-import Conv_script.SNClassification_CNN as SNClassification_CNN
-import Conv_script.SNClassification_input as SNClassification_input
 import numpy as np
+
+import SNClassification_CNN
 
 
 LEARNING_RATE = 0.01 

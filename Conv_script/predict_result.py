@@ -7,8 +7,8 @@ import csv
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib.tensorboard.plugins import projector
-from Conv_script.SNClassification_train import model_fn
-import Conv_script.SNClassification_input as SNClassification_input
+from SNClassification_train import model_fn
+import SNClassification_input
 from scipy.integrate import trapz
 from sklearn import metrics
 
