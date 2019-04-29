@@ -4,8 +4,8 @@ from __future__ import print_function
 
 import tensorflow as tf
 import os
-import SNClassification_CNN
-import SNClassification_input
+import Conv_script.SNClassification_CNN as SNClassification_CNN
+import Conv_script.SNClassification_input as SNClassification_input
 import numpy as np
 
 
